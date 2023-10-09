@@ -1,0 +1,40 @@
+#root {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background: linear-gradient(red,blue,green) no-repeat;
+  height: 100vh;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.form {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+}
+
+hr {
+  border: 2px solid black;
+  width: 100%;
+}
+.viewData{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  width: 90%;
+  background-color: rgb(150, 95, 0);
+}
+.box{
+  background-color: aqua;
+  margin: 10px;
+  border-radius: 30px;
+}
